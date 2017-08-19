@@ -1,3 +1,10 @@
+
 body {
-	background-color: skyblue;
+	background-image: url("../images/psychicbg.jpg");
+	text-align: center;
+	color: #e8efc9;
+}
+
+.jumbotron {
+	background: rgba(239, 236, 213, 0.2);	
 }

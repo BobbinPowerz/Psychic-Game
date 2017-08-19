@@ -11,6 +11,7 @@ var losses = 0;
 // Random Number Generator rolls for the letter the game will be checking user rolls against
 var index = Math.floor(Math.random() * alphabet.length);
 hidden = alphabet[index];
+console.log(hidden);
 
 
 // Updating functions for reset call later
@@ -26,7 +27,7 @@ var updateHidden = function() {
 
 
 var updateAttempts = function() {
- document.getElementById("guess").innerHTML = attempts;
+ document.getElementById("guess").innerHTML = attempts.join(" ");
 };
 
 // Reset for wins and losses later on
